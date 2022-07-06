@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#banner-part{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+}
+#banner-part .text{
+    text-align: center;
+    padding: 150px 300px;
+}
+#banner-part .text h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 500;
+}
+#banner-part .tittle-text{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    width: 73%;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.button{
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 23px;
+    border-radius: 5px;
+    background: #ED1C24;
+}
+#donate-today{
+    text-align: center;
+    margin: 80px 0;
+}
+.tittle{
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 14px;
+    text-align: center;
+}
+.tittle-text{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    text-align: center;
+}
+#donate-today .tittle-text{
+    color: #000;
+    width: 55%;
+    margin: 0 auto;
+}
+#donate-today ul{
+    margin-top: 60px;
+    margin-bottom: 80px;   
+}
+#donate-today li{
+    display: inline;
+    color: #b8b7b7;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 30px 20px;
+    margin: 10px 5px;
+    background: #FAFAFA;
+    border-radius: 5px;
+}
+#donate-today .text-hover{
+    border: 2px solid #ED1C24;
+    color: #ED1C24;
+    background: #FFEEEE;
+}
+#donate-today .donate-text{
+    width: 53%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid black;
+}
+#donate-today .donate-text input{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    text-align: center;
+}
+#donate-plan .tittle-text{
+    width: 53%;
+    margin: 0 auto;
+}
+#donate-plan .main{
+    width: 100%;
+    display: flex;
+}
+#donate-plan .main .box{
+    width: 30%;
+    margin: 0 auto;
+    margin: 20px 25px;
+    padding: 40px 20px;
+    background: #EDF5F6;
+    border-radius: 10px;
+}
+#donate-plan .main .shelter{
+    background: #FFEEEE;
+}
+#donate-plan .main .education{
+    background: #FFF4D6;
+}
+#donate-plan .main .box h4{
+    padding: 18px 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+#donate-plan .main .box p{
+    font-size: 16px;
+    font-weight: 400;
+}
+#achievement-part{
+    width: 95%;
+    margin: 0 auto !important;
+}
+#achievement-part .achievement{
+    display: flex;
+    margin: 80px 20px;
+}
+#achievement-part .achievement .tittle{
+    text-align: left;
+}
+#achievement-part .achievement .tittle-text{
+    text-align: left;
+    width: 75%;
+}
+#achievement-part .achievement .text{
+    width: 50%;
+    text-align: left;
+}
+#achievement-part .achievement .img{
+    width: 50%;
+    text-align: center;
+}
+#achievement-part .achievement .img img{
+    width: 70%;
+    border-radius: 5px;
+}
+#achievement-part .achive-text {
+    display: flex;
+}
+#achievement-part .achive-text .main{
+    width: 50%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#achievement-part .achive-text .num{
+    font-size: 24px; 
+    font-weight: 500;  
+}
+#achievement-part .achive-text .num-text{
+    font-size: 12px;
+    font-weight: 300;
+    width: 70%;   
+}
+#achievement-part img{
+    width: 100%;
+}
+#get .tittle-text{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+#get {
+    margin-bottom: 80px;
+}
+#get .sub{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 80px;
+    background: #FFF4D6;
+}
+#get .sub form{
+    margin: 0;
+    padding: 0;
+}
+#get .sub input{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 10px;
+    width: 50%;
+    margin-left: auto;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+button{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    text-decoration: none;
+    margin: auto;
+    color: #fff;
+    padding: 10px 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #ED1C24;
+    margin-left: -4px;
+}
+footer{
+    padding: 40px;
+    text-align: center;
+    background: #0B0D17;
+}
+footer span{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    color: #ED1C24;
+}
+footer P{
+    padding-top: 10px;
+    font-size: 16px;
+    color: #D9DBE1;
+}
