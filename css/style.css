@@ -126,7 +126,7 @@ body{
 }
 #achievement-part .achievement{
     display: flex;
-    margin: 80px 20px;
+    margin: 80px 50px;
 }
 #achievement-part .achievement .tittle{
     text-align: left;
@@ -137,14 +137,14 @@ body{
 }
 #achievement-part .achievement .text{
     width: 50%;
-    text-align: left;
+    text-align: center;
 }
 #achievement-part .achievement .img{
     width: 50%;
     text-align: center;
 }
 #achievement-part .achievement .img img{
-    width: 70%;
+    width: 63%;
     border-radius: 5px;
 }
 #achievement-part .achive-text {
